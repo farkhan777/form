@@ -13,7 +13,7 @@ if(isset($_POST['send']))
     }
     else
     {
-        $mailTo = "farhanhamzah91@gmail.com";
+        $mailTo = "farhanhamzah71@webmail.ummm.ac.id";
         $headers = "From: ".$Email;
         $txt = "You have received an e-mail from ".$UserName.".\n\n".$Msg;
 
