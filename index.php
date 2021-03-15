@@ -31,7 +31,9 @@
 
 			<form class="contact1-form validate-form" action="processed.php" method="post">
 				<span class="contact1-form-title">
-					Get in touch
+					<?php
+						echo "Get in touch";
+					?>
 				</span>
 				<div class="wrap-input1 validate-input" data-validate = "Name is required">
 					<input class="input1" type="text" name="name" placeholder="Name">
