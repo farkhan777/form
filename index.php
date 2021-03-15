@@ -28,6 +28,21 @@
 			<div class="contact1-pic js-tilt" data-tilt>
 				<img src="images/message.png" alt="IMG">
 			</div>
+			
+			<?php 
+                $Msg = "";
+                if(isset($_GET['error']))
+				{
+                    $Msg = " Please Fill in the Blanks ";
+                    echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                }
+
+            	if(isset($_GET['success']))
+                {
+                    $Msg = " Your Message Has Been Sent ";
+                    echo '<div class="alert alert-success">'.$Msg.'</div>';
+                }        
+            ?>
 
 			<form class="contact1-form validate-form" action="processed.php" method="post">
 				<span class="contact1-form-title">
