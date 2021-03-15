@@ -25,7 +25,7 @@
        }
        else
        {
-           $to = "farhanhamzah71@gmail.com";
+           $to = "farhanhamzah91@gmail.com";
 
            if(mail($to,$Subject,$Msg,$Email))
            {
