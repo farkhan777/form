@@ -33,21 +33,6 @@
 				<span class="contact1-form-title">
 					Get in touch
 				</span>
-				<?php 
-                            $Msg = "";
-                            if(isset($_GET['error']))
-                            {
-                                $Msg = " Please Fill in the Blanks ";
-                                echo '<div class="alert alert-danger">'.$Msg.'</div>';
-                            }
-
-                            if(isset($_GET['success']))
-                            {
-                                $Msg = " Your Message Has Been Sent ";
-                                echo '<div class="alert alert-success">'.$Msg.'</div>';
-                            }
-                        
-                ?>
 				<div class="wrap-input1 validate-input" data-validate = "Name is required">
 					<input class="input1" type="text" name="name" placeholder="Name">
 					<span class="shadow-input1"></span>
