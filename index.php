@@ -29,7 +29,7 @@
 				<img src="images/message.png" alt="IMG">
 			</div>
 
-			<form class="contact1-form validate-form" method="post" action="processed.php">
+			<form class="contact1-form validate-form" action="processed.php" method="post">
 				<span class="contact1-form-title">
 					Get in touch
 				</span>
